@@ -4,10 +4,7 @@ mongo-spark-shell
 Hastily written macro to initialize a mongo spark connector within the spark-shell and return the shell back to the
 user
 
-Read more details at http://codeforhire.com/2014/02/18/using-spark-with-mongodb/
-
-[1]: https://github.com/mongodb/mongo-hadoop
-[2]: https://spark.incubator.apache.org/
+Uses the connector from https://github.com/mongodb/mongo-hadoop
 
 
 Prerequisites
