@@ -1,0 +1,8 @@
+#input uri (if any)
+mongo.input.uri=mongodb://localhost:27017/DBNAME.COLLECTIONNAME
+
+#output uri (if any)
+mongo.output.uri=mongodb://localhost:27017/DBNAME.COLLECTIONNAME
+
+#initial query (if any)
+mongo.input.query={\"some_key\": \"some_value\"}
