@@ -1,3 +1,5 @@
+// everything is imported directly into the scala/spark repl. essentially a script
+// this should probably be put in a class tho
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._
 import org.apache.hadoop.conf.Configuration
@@ -22,7 +24,5 @@ config.set("mongo.input.uri", properties.get("mongo.input.uri").toString())
 config.set("mongo.output.uri", properties.get("mongo.output.uri").toString())
 config.set("mongo.input.query", properties.get("mongo.input.query").toString())
 
-
-//val sc = new SparkContext("local", "Scala Word Count")
 
 val mongoRDD = sc.newAPIHadoopRDD(config, classOf[com.mongodb.hadoop.MongoInputFormat], classOf[Object], classOf[BSONObject])
