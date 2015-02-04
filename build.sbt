@@ -1,4 +1,4 @@
-name := "mongo-spark"
+name := "mongo-spark-shell"
 
 version := "1.0"
 
