@@ -10,7 +10,7 @@ Uses the connector from https://github.com/mongodb/mongo-hadoop
 Prerequisites
 -------------
 
-* Scala 2.10 (SBT not required)
+* Scala 2.10
 * mongo-hadoop and mongo-java driver (jars are included)
 * you need a config.properties file placed in the working directory of spark-shell - i know, should be read in at the cli
 
